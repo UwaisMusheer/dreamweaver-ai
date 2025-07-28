@@ -11,6 +11,9 @@ class Dream < ApplicationRecord
 
   # == Validations ==========================================================
 
+  validates :title, presence: true
+  validates :dream_date, presence: true
+
   # == Scopes ===============================================================
 
   # == Callbacks ============================================================
